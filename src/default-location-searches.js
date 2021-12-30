@@ -9,38 +9,38 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 const defaultLocations = [
   {
-    id: 'default-helsinki',
+    id: 'default-Ionian',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Ionian Islands, Ionian Sea',
+      bounds: new LatLngBounds(new LatLng(40.87942188, 22.29266022), new LatLng(37.13801836, 18.93865734)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-Kiklades',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Cyclades, Aegean Sea',
+      bounds: new LatLngBounds(new LatLng(39.31508995, 26.67711177), new LatLng(35.49018258, 23.32310889)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-Sporades',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'Sporades Islands, Aegean Sea',
+      bounds: new LatLngBounds(new LatLng(40.37552203, 24.76506212), new LatLng(38.5158592, 23.08806068)),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-NAegean',
     predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      address: 'North Aegean, Aegean Sea',
+      bounds: new LatLngBounds(new LatLng(41.21787194, 27.9793328), new LatLng(37.48890609, 24.62003954)),
     },
   },
   {
-    id: 'default-ruka',
+    id: 'default-Dodecanese',
     predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'Dodecanese, Aegean Sea',
+      bounds: new LatLngBounds(new LatLng(37.25858612, 28.34403317), new LatLng(35.31435947, 26.66438654)),
     },
   },
 ];

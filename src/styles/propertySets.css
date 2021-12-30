@@ -23,7 +23,7 @@
   --backgroundImage: {
     /* Gradient direction and overlaying the black color on top of the image for better readability */
     background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-      url('../../assets/background-1440.jpg');
+      url('../../assets/sail-bg.jpg');
 
     /* Add loading color for the div */
     background-color: var(--matterColor);
@@ -525,20 +525,6 @@
 
     @media (--viewportMedium) {
       padding: 4px 0 2px 0;
-    }
-  }
-
-  --marketplaceInputFontStyles: {
-    font-family: var(--fontFamily);
-    font-weight: var(--fontWeightMedium);
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.1px;
-    /* No margins for default font */
-
-    @media (--viewportMedium) {
-      font-size: 16px;
-      line-height: 32px;
     }
   }
 

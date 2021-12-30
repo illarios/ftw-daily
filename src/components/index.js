@@ -169,7 +169,9 @@ export { default as EditListingWizard } from './EditListingWizard/EditListingWiz
 export { default as Footer } from './Footer/Footer';
 export { default as SectionHero } from './SectionHero/SectionHero';
 export { default as SectionHowItWorks } from './SectionHowItWorks/SectionHowItWorks';
+export { default as SectionHowItWorksSkippers } from './SectionHowItWorksSkippers/SectionHowItWorksSkippers';
 export { default as SectionLocations } from './SectionLocations/SectionLocations';
+export { default as SectionSkippers } from './SectionSkippers/SectionSkippers';
 export { default as SectionThumbnailLinks } from './SectionThumbnailLinks/SectionThumbnailLinks';
 export { default as Topbar } from './Topbar/Topbar';
 export { default as TopbarDesktop } from './TopbarDesktop/TopbarDesktop';
